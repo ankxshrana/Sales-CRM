@@ -108,8 +108,23 @@ POST   /api/v1/alerts/{id}/dismiss/
 ## 👤 About the Developer
 
 **Ankush Rana**
-MCA student at Thapar Institute of Engineering & Technology (TIET), Patiala
-Prior experience: DRDO internship, SPIE Lab internship
+MCA student at Thapar Institute of Engineering & Technology (TIET), Patiala · B.Sc.
+in Electronic Science, University of Delhi
+
+Currently serving as **Research Secretary** at the CODE METRICS Research Society
+(machine learning, deep learning, and NLP projects) and **Student Placement
+Representative** at TIET, liaising between students, recruiters, and the placement
+cell. Previously a **Research Analyst Intern** at Cosmic Attire and a **Student
+Intern at DRDO**, where he built a computer-vision face-mask detection and alert
+system using deep learning — the same instinct for pairing a working model with a
+real alerting mechanism shows up here in this project's own alert system.
+
+Earlier research at the SPIE Student Chapter (Univ. of Delhi) spanned quantum dots,
+superconductivity, and Mixed Reality, and included two years as chapter President —
+during which the chapter won a SPIE Outreach Grant and the SPIE Presidential Award
+for Outstanding Student Chapter. His undergraduate dissertation on 3D-printing in
+science pedagogy led to two published papers in the *International Journal Physics
+Education*.
 
 📧 [ankxsh.rana@gmail.com](mailto:ankxsh.rana@gmail.com)
 🔗 [LinkedIn](https://linkedin.com/in/ankxshrana)

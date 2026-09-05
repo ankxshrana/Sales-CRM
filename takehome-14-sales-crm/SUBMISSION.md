@@ -48,7 +48,7 @@ what's actually working in your deployed app right now.
 
 ## How much time did you actually spend?
 
-Spend more than 12 hourds.
+Spend more than 12 hours.
 
 ## What would you do next, with another 12 hours?
 

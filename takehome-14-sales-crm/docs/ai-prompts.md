@@ -75,9 +75,7 @@ original spec in plain language (roles enforced server-side, per-deal bulk-actio
 results with rejection reasons, CSV export of the open pipeline with stage-weighted
 value).
 
-### What you got
-*(Fill in: did Antigravity's existing implementation already match, or did this
-prompt surface gaps it then fixed?)*
+
 
 ---
 

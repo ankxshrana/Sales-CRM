@@ -23,7 +23,7 @@ First, click on Demo Accounts (select either Sales Manager or Sales Rep), and it
 | Frontend | React + Vite, TanStack Query, React Hook Form + Zod, shadcn/ui, Recharts | Interactive UI (bulk selection, stage changes, dashboard) was easier to keep clean as components than as templates — see `decisions.md` |
 | Backend | Django + DRF, service-layer business logic | Auth/roles/ORM/admin out of the box; service layer keeps stage-transition rules testable and out of views |
 | Database | PostgreSQL, `DecimalField` for money | Exact decimal values, relational integrity, needed aggregation for the dashboard |
-| Hosting | <your actual host> | |
+| Hosting | Vercel | Easy and free of cost! |
 
 ## Goal checklist
 

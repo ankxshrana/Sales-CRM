@@ -2,19 +2,19 @@
 
 ## Links
 
-- **GitHub repository:** <[https://github.com/ankxshrana/Sales-CRM](https://github.com/ankxshrana/Sales-CRM)>
-- **Live application:** <[https://sales-crm-1uby.vercel.app](https://sales-crm-1uby.vercel.app)>
+- **GitHub repository:** [https://github.com/ankxshrana/Sales-CRM](https://github.com/ankxshrana/Sales-CRM)
+- **Live application:** [https://sales-crm-1uby.vercel.app](https://sales-crm-1uby.vercel.app)
 
 ## Notes for the reviewer
 
-<First, click on Demo Accounts (select either Sales Manager or Sales Rep), and it will automatically fill in the email address and password. Then click on 'Sign In ->', The user will be able to log in within 8 seconds, provided they have a good internet connection.>
+First, click on Demo Accounts (select either Sales Manager or Sales Rep), and it will automatically fill in the email address and password. Then click on 'Sign In ->', The user will be able to log in within 8 seconds, provided they have a good internet connection.
 
 ## Demo credentials
 
 | Role | Email | Password |
 |------|-------|----------|
-| Manager | | |
-| Rep | | |
+| Manager | manager@example.com | password123 |
+| Rep | rep@example.com | password123 |
 
 ## Stack
 
@@ -35,27 +35,25 @@ what's actually working in your deployed app right now.
 
 | # | Goal | Status | Notes |
 |---|------|--------|-------|
-| 1 | Accounts & roles (server-enforced) | | |
-| 2 | Company CRUD + archive/restore | | |
-| 3 | Deal CRUD + ownership | | |
-| 4 | Stage lifecycle (forward/backward-with-reason/reopen) | | |
-| 5 | Collaborators | | |
-| 6 | Server-side search/filter/sort/pagination | | |
-| 7 | Append-only deal history | | |
-| 8 | Bulk reassign/advance with per-deal results | | |
-| 9 | CSV export | | |
-| 10 | Dashboard + alerts | | |
+| 1 | Accounts & roles (server-enforced) | Done | Working perfectly fine.|
+| 2 | Company CRUD + archive/restore | Done | Working as per the guidlines |
+| 3 | Deal CRUD + ownership | Done | Working |
+| 4 | Stage lifecycle (forward/backward-with-reason/reopen) | Done | Checked and Verified |
+| 5 | Collaborators | Done | Working fine. |
+| 6 | Server-side search/filter/sort/pagination | Done | This function is working. |
+| 7 | Append-only deal history | Done | Working perfectly. |
+| 8 | Bulk reassign/advance with per-deal results | Done | This feature is added. |
+| 9 | CSV export | Done | Able to export the CSV file. |
+| 10 | Dashboard + alerts | Done | Well-designed. |
 
 ## How much time did you actually spend?
 
-*(Yours to fill in.)*
+Spend more than 12 hourds.
 
 ## What would you do next, with another 12 hours?
 
-*(Yours to fill in — the `deals/7`/alerts bug and the create-deal bug you mentioned
-are good candidates if anything about them still feels unfinished.)*
+I will try to figure-out how I include Automation for generating weekly reports and how it would be enhanced using AI and Analytics feature can be added. 
 
 ## What are you least happy with in this codebase, and why?
 
-*(Yours to fill in honestly — this is the one question in the whole template that
-specifically wants self-critique, not a clean narrative.)*
+Currently using basic UI, better interface can be used which may include features like DarkMODE, increase FontStyle,FontSize etc.

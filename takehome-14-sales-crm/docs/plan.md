@@ -209,3 +209,47 @@ The key idea is: **make the application work first, then make it look good.**
 
 A simple but reliable CRM is much better than a beautiful interface with broken business rules.
 
+# Because of my health issues, I have followed the following plans
+
+# Plan 2.0
+
+## How did you break the work into sessions?
+
+Roughly by domain, following the phase order worked out during planning with ChatGPT
+before handing off to Antigravity:
+
+1. Project setup — Django project, PostgreSQL config, custom `User` model, auth,
+   manager/rep roles
+2. Companies — model, CRUD, archive/restore, server-side permissions
+3. Deals — model, CRUD, ownership, company relationship
+4. Deal lifecycle — stage transitions (forward/backward-with-reason), closed-deal
+   rules, reopen, stage-weighted values
+5. Collaborators — add/remove, permission checks, owner-or-collaborator visibility
+6. Search — text search, stage/owner/company filters, sorting, pagination
+7. History — the append-only `DealHistory` model and timeline
+8. Bulk actions — bulk reassign/advance with per-deal success/rejection reporting,
+   CSV export
+9. Dashboard — open deals, weighted pipeline, won/lost this month, stage/owner
+   breakdowns, 8-week chart
+10. Alerts — past-due detection, dismissal, reappearance on close-date change
+11. Deployment — production settings, static files, env vars, hosting
+
+## What order did you build in, and why that order?
+
+The order above — infrastructure and auth first, then the two core entities
+(companies, deals) before any of the logic that depends on them, then progressively
+more complex deal behavior (lifecycle → collaborators → search → history → bulk →
+dashboard → alerts), and deployment last. This follows dependency order: you can't
+build stage-transition rules before the `Deal` model exists, and the dashboard/alerts
+both read data that the earlier phases produce.
+
+## What did you estimate versus what it actually took?
+
+*(Yours to fill in — I don't have your actual time log.)*
+
+## What did you cut when you ran short?
+
+*(Yours to fill in. One thing worth naming if it applies: Celery/Redis for scheduled
+alert processing was deliberately never planned — past-due status is computed on
+read instead — so that's a deliberate scope decision rather than something cut under
+time pressure. If anything else was dropped, list it here.)*

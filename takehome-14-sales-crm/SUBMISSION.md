@@ -2,7 +2,7 @@
 
 ## Links
 
-- **GitHub repository:** <[[https://github.com/ankxshrana/Sales-CRM](https://github.com/ankxshrana/Sales-CRM)>
+- **GitHub repository:** <[https://github.com/ankxshrana/Sales-CRM](https://github.com/ankxshrana/Sales-CRM)>
 - **Live application:** <[https://sales-crm-1uby.vercel.app](https://sales-crm-1uby.vercel.app)>
 
 ## Notes for the reviewer

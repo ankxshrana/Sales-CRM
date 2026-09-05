@@ -70,15 +70,3 @@ eligibility. These are business rules that change independently of the schema an
 need richer error messages than a DB constraint can give — a `CHECK` constraint can't
 say "rejected: deal is already closed" back to the caller.
 
-## What did you deliberately denormalise?
-
-*(Yours to answer — e.g. did you store `previous_stage` on the Deal itself rather than
-deriving it by querying the last `DealHistory` row? That's the one denormalisation
-visible in the schema above, done for O(1) reopen instead of a history scan.)*
-
-## What would break first if this had 100x the data?
-
-Likely candidates given this schema: the dashboard's "deals won per week for 8 weeks"
-aggregation and the past-due alert scan, since both do date-range filtering across the
-full `deals`/`deal_alerts` tables rather than a pre-aggregated rollup. The composite
-indexes above cover the common filters but not necessarily every dashboard breakdown.

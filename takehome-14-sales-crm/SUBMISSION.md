@@ -2,7 +2,7 @@
 
 ## Links
 
-- **GitHub repository:** <(https://github.com/ankxshrana/Sales-CRM)>
+- **GitHub repository:** <[](https://github.com/ankxshrana/Sales-CRM)>
 - **Live application:** <deployed URL>
 
 ## Notes for the reviewer

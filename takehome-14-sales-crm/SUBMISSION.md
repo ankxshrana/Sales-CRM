@@ -3,7 +3,7 @@
 ## Links
 
 - **GitHub repository:** <[Rep URL](https://github.com/ankxshrana/Sales-CRM)>
-- **Live application:** <deployed URL>
+- **Live application:** <[Deployed URL](https://sales-crm-1uby.vercel.app)>
 
 ## Notes for the reviewer
 

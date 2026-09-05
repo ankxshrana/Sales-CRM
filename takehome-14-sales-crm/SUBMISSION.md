@@ -7,7 +7,7 @@
 
 ## Notes for the reviewer
 
-<Anything to flag before opening the link — free-tier host cold-start delay, etc.>
+<First, click on Demo Accounts (select either Sales Manager or Sales Rep), and it will automatically fill in the email address and password. Then click on 'Sign In ->', The user will be able to log in within 8 seconds, provided they have a good internet connection.>
 
 ## Demo credentials
 

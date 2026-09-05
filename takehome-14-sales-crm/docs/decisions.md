@@ -53,9 +53,3 @@
   caching logic by hand for state that isn't really client-owned in the first place.
 
 ---
-
-*Decisions 1–5 reflect the actual planning conversation and the trade-offs surfaced
-in it. If there are other choices you made yourself while building — inside
-`services.py`, the permission classes, or the alert-reappearance logic — add them
-here; those are yours to describe since I only have the planning transcript, not the
-implementation session.*

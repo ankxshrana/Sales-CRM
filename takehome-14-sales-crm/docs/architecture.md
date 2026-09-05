@@ -26,8 +26,6 @@ numbers, filtering, sorting, pagination are all server-side).
 - Database: PostgreSQL.
 - Frontend: static build output from Vite, served separately from the Django API.
 
-*(Fill in your actual hosting targets/URLs once deployed — this is the shape, not the
-specific hosts.)*
 
 ## What is the request path for one representative user action, end to end?
 
@@ -47,9 +45,3 @@ Example — a manager reassigns a deal's owner:
 6. Response returns the updated deal; TanStack Query invalidates the relevant query
    keys and the UI re-renders from fresh server data.
 
-## What did you decide not to build, and why?
-
-*(This one is yours to answer honestly — e.g. Celery/Redis for scheduled alert
-processing was deliberately skipped in favor of computing past-due status on read,
-per the "don't add Celery for the initial version" call made during planning. Add
-anything else you consciously cut.)*
